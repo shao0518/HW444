@@ -43,6 +43,6 @@ public class Card {
         } else {
             poker = String.valueOf(num);
         }
-        return poker + suit;
+        return poker + suit.toUpperCase();
     }
 }
